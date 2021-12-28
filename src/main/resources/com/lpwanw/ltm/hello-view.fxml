@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lpwanw.ltm.Controller.HelloController">
+   <center>
+      <TextArea fx:id="ChatPane" prefHeight="200.0" prefWidth="482.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="32.0" prefWidth="482.0" BorderPane.alignment="CENTER">
+         <TextField fx:id="ChatText" onKeyPressed="#onKeyPress" prefHeight="25.0" prefWidth="329.0"/>
+         <Button fx:id="SendButton" mnemonicParsing="false" onAction="#onSendMessage" text="Send">
+            <HBox.margin>
+               <Insets left="50.0"/>
+            </HBox.margin>
+         </Button>
+      </HBox>
+   </bottom>
+   <top>
+      <HBox alignment="CENTER" prefHeight="44.0" prefWidth="482.0" BorderPane.alignment="CENTER">
+         <Label fx:id="StatusText" text="Status"/>
+      </HBox>
+   </top>
+   <right>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <Button fx:id="FindButton" minWidth="75.0" mnemonicParsing="false" onAction="#onFindMath" text="Find"/>
+         <Button fx:id="LeaveButton" minWidth="75.0" mnemonicParsing="false" onAction="#onLeaveChat" text="Leave chat">
+            <VBox.margin>
+               <Insets top="20.0"/>
+            </VBox.margin>
+         </Button>
+         <Button fx:id="ExitButton" layoutX="24.0" layoutY="120.0" minWidth="75.0" mnemonicParsing="false"
+                 onAction="#onExitButton" text="Exit">
+            <VBox.margin>
+               <Insets top="20.0"/>
+            </VBox.margin>
+         </Button>
+      </VBox>
+   </right>
+</BorderPane>

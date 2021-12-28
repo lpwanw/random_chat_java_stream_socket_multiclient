@@ -1,0 +1,17 @@
+# random_chat_java_stream_socket_multiclient
+- Enter nickname
+- ![image](https://user-images.githubusercontent.com/41092293/147593450-a68119d7-585d-49f1-9c0d-5a3580fd2ece.png)
+- No user in queue for first user
+- ![image](https://user-images.githubusercontent.com/41092293/147593458-8e5d3b2b-3421-49e8-b2ff-5a962bf0eaed.png)
+- In queue screen
+- ![image](https://user-images.githubusercontent.com/41092293/147593471-95a275cf-3365-4d35-a5df-f0a3e1015c8b.png)
+- Found User in queue
+- ![image](https://user-images.githubusercontent.com/41092293/147593567-27c7ef0a-4ae6-4466-b978-9c6b4dfa9378.png)
+- User1 get alert
+- ![image](https://user-images.githubusercontent.com/41092293/147593586-ed4bb540-6f09-443a-9bd6-10c2ca84b108.png)
+- Chat (enter or click button)
+- ![image](https://user-images.githubusercontent.com/41092293/147593633-dccc87f0-99df-4b5b-9c80-0153cbe65ecf.png)
+- Leave chat anytime
+- ![image](https://user-images.githubusercontent.com/41092293/147593672-4c8b258d-8243-4e9d-9fa4-47e1c2f5e285.png)
+- Exit
+- ![image](https://user-images.githubusercontent.com/41092293/147593697-c1f38056-a72a-4126-a1b6-2c7373499fa0.png)
