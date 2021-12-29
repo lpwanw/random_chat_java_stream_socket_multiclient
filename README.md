@@ -16,3 +16,21 @@
 - Exit
 - ![image](https://user-images.githubusercontent.com/41092293/147593697-c1f38056-a72a-4126-a1b6-2c7373499fa0.png)
 - ![image](https://user-images.githubusercontent.com/41092293/147628277-780f6902-2428-4ce2-a381-9f4b3d032d77.png)
+Người dùng A chọn một nickname bất kỳ để sử dụng ứng dụng (chỉ cần nickname, không cần
+password hay các thông tin khác). Nếu nickname đang được một người dùng khác sử dụng, ứng
+dụng sẽ thông báo lỗi để người dùng chọn một nickname khác.
+Sau khi người dùng A chọn nickname thành công:
+Nếu có 1 hoặc một số người dùng khác đang ở trạng thái chờ thi người dùng A và một
+người ngẫu nhiên trong danh sách chờ sẽ được ghép đôi để chat. Người dùng A được phép
+đồng hoặc từ chối ghép đôi:
+Nếu đồng ỹ: hai bên bắt đầu phiên chat (dữ liệu chat giữa hai client chỉ có text,
+không có file/image).
+Nếu từ chối: hệ thống sẽ tim một người dùng khác trong danh sách chờ để ghép đôi
+hoặc đẩy A vào danh sách chờ nếu A đă từ chối tất cả người dùng trong danh sách chờ.
+Nếu không có người dùng nào khác đang ở trạng thái chờ thi A sẽ bị đẩy vào danh sách
+chờ cho tới khi hệ thống tim được 1 người dùng để ghép đôi.
+Tại bất kỳ thời điểm nào, một trong hai người dùng trong một phiên chat có thể thoát khỏi phiên
+chat. Người dùng cỏn lại sẽ được hệ thống đẩy ra khỏi phiên chat và quay trở lại các hoạt động
+tương tự lúc mới đăng nhập thành công.
+Toàn bộ thông tin về người dùng (bao gồm nickname, lịch sử chat) sẽ được xóa hoàn toàn khi họ
+thoát khỏi ứng dung.
