@@ -15,4 +15,4 @@
 - ![image](https://user-images.githubusercontent.com/41092293/147593672-4c8b258d-8243-4e9d-9fa4-47e1c2f5e285.png)
 - Exit
 - ![image](https://user-images.githubusercontent.com/41092293/147593697-c1f38056-a72a-4126-a1b6-2c7373499fa0.png)
-- ![image](https://user-images.githubusercontent.com/41092293/147628139-9b14606a-54e6-4115-a7a8-68e9691f6759.png)
+- ![image](https://user-images.githubusercontent.com/41092293/147628277-780f6902-2428-4ce2-a381-9f4b3d032d77.png)
